@@ -28,6 +28,7 @@ soup = BeautifulSoup(page.content, 'html5lib')
 games_list = dkTools.gameSelector(soup):
 ```
 **gameSelector() can only be applied to game-lines tab on DK webpage selected by '?category=game-lines&subcategory=game' as the 2nd variable passed to urlBuilder** <br>
+<br>
 Example output
 ```
 for i in games_list:
