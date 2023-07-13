@@ -6,16 +6,13 @@ urlBuilder.py allows easy changing of selected sport, also contains minimal sele
 ## cfb
 College football analysis
 ### Example DK odds pull
-Basic package imports
+Basic package imports + changing path to underdogs directory to import relevant scripts
 ```
 import requests
 from bs4 import BeautifulSoup
 
 import sys
 import os
-```
-Changing path to underdogs directory and importing relevant scripts
-```
 sys.path.insert(0, os.path.dirname(os.path.abspath('')))
 
 import urlBuilder
