@@ -18,18 +18,18 @@ sys.path.insert(0, os.path.dirname(os.path.abspath('')))
 import urlBuilder
 import dkTools
 ```
-urlBuilder is used to create specific draft kings CFB url which can then be fed into requests
-BeautifulSoup used to convert requests object to bs4 object
+urlBuilder is used to create specific draft kings CFB url which can then be fed into requests <br>
+BeautifulSoup used to convert requests object to bs4 object <br>
 bs4 object 'soup' is passed to gameSelector() which returns a list of games with team names and odds
 ```
 page = requests.get(urlBuilder.DKbuild('football/ncaaf', '?category=game-lines&subcategory=game'))
 soup = BeautifulSoup(page.content, 'html5lib')
 
-games = dkTools.gameSelector(soup):
+games_list = dkTools.gameSelector(soup):
 ```
 Example output
 ```
-for i in games:
+for i in games_list:
   print(i)
 
 [{'name': 'Navy', 'moneyline': '+800'}, {'name': 'Notre Dame', 'moneyline': '−1250'}]
