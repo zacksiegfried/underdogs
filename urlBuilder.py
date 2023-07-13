@@ -10,7 +10,7 @@
 
 # Game Lines = ?category=game-lines&subcategory=game
 
-def DKbuild(league, bet_type):
+def DK(league, bet_type):
     """Returns full draftkings URL from input of relavent league string and bet category type"""
 
     base_url = 'https://sportsbook.draftkings.com/leagues/'
