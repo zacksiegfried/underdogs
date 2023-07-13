@@ -1,11 +1,11 @@
 # underdogs
-## Scripts relating to the general analysis of college and professional sports
+## Scripts relating to the betting analysis of college and professional sports
 basic draftkings web scraping capabilities are contained in dkTools.py <br>
 urlBuilder.py allows easy changing of selected sport, also contains minimal selection criteria (can be added to)
 
 ## cfb
 College football analysis
-### Example DK odds pull
+### Example Draft Kings odds pull
 Basic package imports + changing path to underdogs directory to import relevant scripts
 ```
 import requests
