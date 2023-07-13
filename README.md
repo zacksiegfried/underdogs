@@ -20,7 +20,7 @@ import dkTools
 ```
 urlBuilder is used to create specific draft kings CFB url which can then be fed into requests <br>
 BeautifulSoup used to convert requests object to bs4 object <br>
-bs4 object 'soup' is passed to gameSelector() which returns a list of games with team names and odds
+bs4 object 'soup' is passed to gameSelector() which returns a list of games with team names and odds <br>
 **gameSelector() can only be applied to game-lines tab on DK webpage selected by '?category=game-lines&subcategory=game' as the 2nd variable passed to urlBuilder**
 ```
 page = requests.get(urlBuilder.DK('football/ncaaf', '?category=game-lines&subcategory=game'))
