@@ -35,4 +35,5 @@ for i in games_list:
 [{'name': 'Navy', 'moneyline': '+800'}, {'name': 'Notre Dame', 'moneyline': '−1250'}]
 [{'name': 'UTEP', 'moneyline': '+110'}, {'name': 'Jacksonville State', 'moneyline': '−130'}]
 [{'name': 'Ohio', 'moneyline': '+155'}, {'name': 'San Diego State', 'moneyline': '−180'}]
+...
 ```
