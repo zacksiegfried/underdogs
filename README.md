@@ -1,6 +1,6 @@
 # underdogs
 ## Scripts relating to the general analysis of college and professional sports
-basic draftkings odds web scraping capabilities are contained in dkTools.py <br>
+basic draftkings web scraping capabilities are contained in dkTools.py <br>
 urlBuilder.py allows easy changing of selected sport, also contains minimal selection criteria (can be added to)
 
 ## cfb
