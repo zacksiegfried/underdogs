@@ -5,7 +5,7 @@ urlBuilder.py allows easy changing of selected sport, also contains minimal sele
 
 ## cfb
 College football analysis
-### Example Draft Kings odds pull
+### Example DraftKings odds pull
 Basic package imports + changing path to underdogs directory to import relevant scripts
 ```
 import requests
